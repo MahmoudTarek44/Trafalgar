@@ -1,0 +1,382 @@
+/* Global styling */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Mulish", sans-serif;
+}
+:root {
+	--mainbg: #e5e5e5;
+	--black: #000000;
+	--white: #ffffff;
+	--text: #7d7987;
+	--navLinks: #1f1534;
+	--idcolor: #458ff6;
+}
+h1,
+h2,
+h3 {
+	font-weight: 700;
+}
+h1 {
+	font-size: 48px;
+	line-height: 56px;
+}
+h2 {
+	font-size: 36px;
+	line-height: 48px;
+}
+h3 {
+	font-size: 24px;
+	line-height: 56px;
+}
+p {
+	font-weight: 300;
+	color: var(--text);
+	margin: 30px 0 40px;
+	line-height: 30px;
+}
+a {
+	text-decoration: none;
+}
+.line {
+	width: 56px;
+	height: 2px;
+	border-radius: 5px;
+	background-color: var(--black);
+	margin: 35px 0 35px;
+}
+i {
+	padding-left: 15px;
+}
+/* body {
+	background-color: var(--mainbg);
+} */
+
+/* Body styling */
+
+header {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 40px;
+	width: 45%;
+}
+nav a {
+	color: var(--text);
+	font-size: 18px;
+}
+#home {
+	color: var(--navLinks);
+	font-weight: 700;
+}
+.section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 85px auto 190px;
+	width: 80%;
+}
+#section1 {
+	position: relative;
+}
+#sec1-dots {
+	position: absolute;
+	top: 110px;
+	left: -45px;
+}
+#panner1 {
+	margin-left: 110px;
+}
+.information-main p {
+	width: 440px;
+	font-size: 21px;
+	line-height: 32px;
+}
+#consult {
+	width: 200px;
+	height: 56px;
+	background-color: var(--idcolor);
+	border-radius: 55px;
+	font-size: 18px;
+	line-height: 60px;
+	color: var(--white);
+	padding: 15px 40px;
+}
+
+/* services section */
+
+#section2 {
+	background-image: url(./images/background\ 1.svg);
+	background-position: left;
+	background-repeat: no-repeat;
+	position: relative;
+}
+#section2 .line {
+	margin: 35px auto 35px;
+}
+#section2 p {
+	margin: 0 auto 0 0;
+}
+#middle-button {
+	margin-bottom: 200px;
+}
+#sec2-dots {
+	position: absolute;
+	top: 565px;
+	right: 162px;
+}
+main {
+	width: 75%;
+	margin: auto;
+	text-align: center;
+	position: relative;
+}
+main p {
+	font-size: 18px;
+	line-height: 30px;
+	width: 950px;
+}
+#services {
+	display: grid;
+	margin: 80px auto 70px;
+	grid-template-columns: auto auto auto;
+}
+#services .card {
+	margin: auto;
+	width: 89%;
+	height: 90%;
+	padding: 35px;
+	box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+	border-radius: 20px;
+	text-align: left;
+	background-color: var(--white);
+	margin-top: 32px;
+}
+#services div p {
+	font-size: 16px;
+	width: 90%;
+}
+
+.button {
+	margin: auto;
+	color: var(--idcolor);
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 60px;
+	width: 200px;
+	height: 55px;
+	border: 1.4px solid var(--idcolor);
+	border-radius: 55px;
+	padding: 15px 45px;
+}
+.hidden {
+	margin-bottom: 30px;
+}
+
+/* section 3 */
+
+.topic {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 200px;
+}
+.information {
+	width: 450px;
+	margin-top: 80px;
+	padding: 20px;
+}
+.information p {
+	font-size: 18px;
+	line-height: 32px;
+}
+
+/* Testimonial section */
+#section4 {
+	position: relative;
+}
+#sec4-dots {
+	position: absolute;
+	top: 270px;
+	left: 95px;
+}
+#test {
+	margin: auto;
+	text-align: center;
+	width: 80%;
+	height: 425px;
+	background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+	border-radius: 24px;
+	color: var(--white);
+	position: relative;
+}
+#test .line {
+	background-color: var(--white);
+	margin: auto;
+}
+#test h2 {
+	padding: 65px 0 25px;
+}
+#test #test-dots {
+	position: absolute;
+	top: 12px;
+	right: -15px;
+}
+#test-ex {
+	margin: 70px auto 80px;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: left;
+}
+#test-ex h3 {
+	font-size: 22px;
+	line-height: 48px;
+	margin-bottom: -10px;
+}
+#test-ex h4 {
+	font-size: 18px;
+	line-height: 48px;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.85);
+}
+#test-ex p {
+	color: var(--white);
+	width: 420px;
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+#person-info {
+	margin-right: 150px;
+}
+#slider {
+	width: 25%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 50px auto 230px;
+	color: var(--idcolor);
+	font-size: 35px;
+}
+#slider i {
+	opacity: 0.3;
+}
+#slide-circle {
+	font-size: 10px;
+}
+#slider #circle-blue,
+#slider #blue-arrow {
+	opacity: 1;
+}
+
+/* Articles section */
+#section5 {
+	position: relative;
+	text-align: center;
+	margin-bottom: 200px;
+	background-image: url(./images/background\ 2.svg);
+	background-position: right 90px;
+	background-repeat: no-repeat;
+}
+#article-info {
+	margin: 75px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 75%;
+	position: relative;
+}
+#section5 .line {
+	margin: 35px auto 35px;
+}
+#article-info div {
+	width: 350px;
+	background: var(--white);
+	box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+	border-radius: 20px;
+	text-align: left;
+}
+#article-info h3 {
+	font-weight: 700;
+	font-size: 21px;
+	line-height: 32px;
+}
+#article-info p {
+	font-size: 16px;
+}
+.art-img {
+	border-radius: 20px 20px 0 0;
+}
+#article-info a {
+	color: var(--idcolor);
+}
+#section5 .button {
+	padding: 15px 55px;
+}
+#sec5-dots {
+	position: absolute;
+	top: 110px;
+	left: 135px;
+}
+.details {
+	padding: 25px 55px 35px 35px;
+}
+
+/* Footer style */
+
+footer {
+	position: relative;
+	background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+}
+
+#container {
+	padding: 115px 0;
+	margin: auto;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: var(--white);
+}
+#container h2 {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 60px;
+}
+#sub-container {
+	width: 335px;
+}
+#sub-container p {
+	color: var(--white);
+}
+#sub-container span {
+	color: var(--idcolor);
+	background-color: var(--white);
+	border-radius: 50%;
+	padding: 5px 12px;
+	margin-right: 10px;
+}
+li {
+	list-style: none;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 38px;
+}
+#foot-dots {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
